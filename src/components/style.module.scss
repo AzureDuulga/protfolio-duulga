@@ -1,0 +1,13 @@
+.Logo {
+  font-weight: bold !important;
+  color: #000 !important;
+  font-size: 20px;
+  :hover {
+    color: blue;
+    border-bottom: blue 1px solid;
+  }
+}
+#shadow {
+  box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.1111);
+  z-index: 10000;
+}

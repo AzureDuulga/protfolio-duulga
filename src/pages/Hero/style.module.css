@@ -1,0 +1,22 @@
+.Container {
+  min-height: 100vh;
+  background-color: rgba(211, 211, 211, 0);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeroItem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+#container {
+  z-index: 1000;
+}
