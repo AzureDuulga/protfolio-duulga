@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Styles from "./style.module.css";
+import Styles from "./style.module.scss";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -95,7 +95,7 @@ const Hero = () => {
         }}
       />
       <Container id={Styles.container}>
-        <Row className="bg-primary">
+        <Row>
           <Col>
             <h1>
               Hi There,
@@ -109,17 +109,45 @@ const Hero = () => {
                 loop={false}
               />
             </h3>
-            <Button className="d-block rounded-pill" variant="light">
+            <Button
+              className="d-block rounded-pill my-3 px-3 shadow-sm"
+              variant="light"
+            >
               About Me <ArrowDownCircleFill />
             </Button>
 
-            <SocialIcon network="linkedin" bgColor="#000000" fgcolor="" />
-            <SocialIcon network="twitter" bgColor="#000000" fgcolor="" />
-            <SocialIcon network="twitter" bgColor="#000000" fgcolor="" />
-            <SocialIcon network="telegram" bgColor="#000000" fgcolor="" />
-            <SocialIcon network="instagram" bgColor="#000000" fgcolor="" />
+            <SocialIcon
+              className={Styles.SocialIcon}
+              network="linkedin"
+              bgColor="#000000"
+              fgcolor=""
+            />
+            <SocialIcon
+              className={Styles.SocialIcon}
+              network="twitter"
+              bgColor="#000000"
+              fgcolor=""
+            />
+            <SocialIcon
+              className={Styles.SocialIcon}
+              network="twitter"
+              bgColor="#000000"
+              fgcolor=""
+            />
+            <SocialIcon
+              className={Styles.SocialIcon}
+              network="telegram"
+              bgColor="#000000"
+              fgcolor=""
+            />
+            <SocialIcon
+              className={Styles.SocialIcon}
+              network="instagram"
+              bgColor="#000000"
+              fgcolor=""
+            />
           </Col>
-          <Col xs={4} className="bg-warning">
+          <Col xs={5}>
             <img
               className={Styles.imgContainer}
               src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"

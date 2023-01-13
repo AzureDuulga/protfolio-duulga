@@ -1,0 +1,17 @@
+.Container {
+  min-height: 100vh;
+  background-color: white;
+  width: 100%;
+  z-index: 1000;
+  // text-align: center;
+}
+
+img {
+  height: 550px;
+  width: 400px;
+  z-index: 5000;
+  filter: grayscale(90%);
+  &:hover {
+    filter: none;
+  }
+}

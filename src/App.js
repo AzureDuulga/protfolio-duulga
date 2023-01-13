@@ -18,9 +18,9 @@ function App() {
       <NavbarMenu />
       <Hero />
       <About />
+      <Skills />
       <Contact />
       <Project />
-      <Skills />
     </>
   );
 }
