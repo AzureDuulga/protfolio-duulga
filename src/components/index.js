@@ -4,6 +4,7 @@ import { SocialIcon } from "react-social-icons";
 import { Navbar, Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import style from "./style.module.scss";
+import { Link } from "react-router-dom";
 
 const NavbarMenu = () => {
   return (
@@ -23,23 +24,35 @@ const NavbarMenu = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link className={style.Logo} href="#Hero">
-              Hero
+            <Nav.Link>
+              <Link className={style.Logo} to="/Hero">
+                Hero
+              </Link>
             </Nav.Link>
-            <Nav.Link className={style.Logo} href="#About">
-              About
+            <Nav.Link>
+              <Link className={style.Logo} to="/About">
+                About
+              </Link>
             </Nav.Link>
-            <Nav.Link className={style.Logo} href="#Skills">
-              Skills
+            <Nav.Link>
+              <Link className={style.Logo} to="/Skills">
+                Skills
+              </Link>
             </Nav.Link>
-            <Nav.Link className={style.Logo} href="#Education">
-              Education
+            <Nav.Link>
+              <Link className={style.Logo} to="/Education">
+                Education
+              </Link>
             </Nav.Link>
-            <Nav.Link className={style.Logo} href="#Contact">
-              Contact
+            <Nav.Link>
+              <Link className={style.Logo} to="/Contact">
+                Contact
+              </Link>
             </Nav.Link>
-            <Nav.Link className={style.Logo} href="#Project">
-              Project
+            <Nav.Link>
+              <Link className={style.Logo} to="/Project">
+                Project
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

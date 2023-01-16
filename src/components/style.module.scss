@@ -1,10 +1,11 @@
 .Logo {
-  font-weight: bold !important;
-  color: #000 !important;
+  font-weight: bold;
+  color: #000;
   font-size: 20px;
-  :hover {
+  text-decoration: none;
+  &:hover {
     color: blue;
-    border-bottom: blue 1px solid;
+    border-bottom: blue 1.5px solid;
   }
 }
 #shadow {

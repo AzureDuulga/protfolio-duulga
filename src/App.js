@@ -12,14 +12,17 @@ import NavbarMenu from "./components";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Education from "./pages/Education";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <NavbarMenu />
+      <Routes>
+        <Route path="/About" element={<About />} />
+        <Route path="/Skills" element={<Skills />} />
+      </Routes>
       <Hero />
-      <About />
-      <Skills />
       <Education />
       <Contact />
       <Project />

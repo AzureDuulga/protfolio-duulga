@@ -1,19 +1,23 @@
 import React from "react";
 import { cardData } from "./cardData.js";
+import style from "./style.module.scss";
+import Button from "react-bootstrap/Button";
 
 const EducationCard = () => {
   return (
     <>
-      {cardData.map(() => {
+      {cardData.map((cardData) => {
         return (
-          <div>
+          <div className={style.cardBorder}>
             <img src={cardData.img} alt="eduImg" />
-            <h3>
-              {cardData.major} of {cardData.school}
-            </h3>
-            <p>
-              {cardData.startdate}-{cardData.enddata}
-            </p>
+            <div className={style.eduText}>
+              <h3>
+                {cardData.major} at {cardData.school}
+              </h3>
+              <h5>
+                {cardData.startdate}-{cardData.enddate}
+              </h5>
+            </div>
           </div>
         );
       })}
