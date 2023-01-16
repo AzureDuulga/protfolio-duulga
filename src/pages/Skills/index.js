@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import Styles from "./style.module.css";
+import Styles from "./style.module.scss";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
+import SkillSingle from "./skill";
 import { Laptop } from "react-bootstrap-icons";
 
 export default class Skills extends Component {
@@ -15,12 +14,8 @@ export default class Skills extends Component {
           Skills & Abilities
         </div>
         <Container>
-          <Row>
-            <Col>1 of 1</Col>
-            <Col>1 of 1</Col>
-            <Col>1 of 1</Col>
-            <Col>1 of 1</Col>
-            <Col>1 of 1</Col>
+          <Row className={Styles.rowBg}>
+            <SkillSingle />
           </Row>
         </Container>
       </div>

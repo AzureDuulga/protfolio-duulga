@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import NavbarMenu from "./components";
 import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Education from "./pages/Education";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Education />
       <Contact />
       <Project />
     </>

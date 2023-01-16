@@ -1,0 +1,36 @@
+.Container {
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(74, 0, 223);
+  background: linear-gradient(
+    0deg,
+    rgba(74, 0, 223, 1) 18%,
+    rgba(87, 5, 158, 1) 100%
+  );
+}
+p {
+  color: white;
+}
+.img {
+  height: 50px;
+  width: 50px;
+}
+.colBg {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rowBg {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}

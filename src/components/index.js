@@ -29,14 +29,17 @@ const NavbarMenu = () => {
             <Nav.Link className={style.Logo} href="#About">
               About
             </Nav.Link>
+            <Nav.Link className={style.Logo} href="#Skills">
+              Skills
+            </Nav.Link>
+            <Nav.Link className={style.Logo} href="#Education">
+              Education
+            </Nav.Link>
             <Nav.Link className={style.Logo} href="#Contact">
               Contact
             </Nav.Link>
             <Nav.Link className={style.Logo} href="#Project">
               Project
-            </Nav.Link>
-            <Nav.Link className={style.Logo} href="#Skills">
-              Skills
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
