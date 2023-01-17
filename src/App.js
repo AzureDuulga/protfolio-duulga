@@ -13,6 +13,7 @@ import About from "./pages/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Education from "./pages/Education";
 import { Routes, Route } from "react-router-dom";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </Routes>
       <Hero />
       <Education />
+      <Experience />
       <Contact />
       <Project />
     </>

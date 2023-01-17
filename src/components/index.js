@@ -45,6 +45,11 @@ const NavbarMenu = () => {
               </Link>
             </Nav.Link>
             <Nav.Link>
+              <Link className={style.Logo} to="/Experience">
+                Experience
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
               <Link className={style.Logo} to="/Contact">
                 Contact
               </Link>
