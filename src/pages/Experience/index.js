@@ -10,6 +10,9 @@ const Experience = () => {
         <h1>
           <BriefcaseFill /> Experience
         </h1>
+        <div>
+          <div className={style.zuraas}></div>
+        </div>
       </Container>
     </div>
   );
